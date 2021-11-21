@@ -1,25 +1,25 @@
 {
-  "name": "gamja",
-  "dependencies": {
-    "htm": "^3.0.4",
-    "linkifyjs": "^3.0.2",
-    "preact": "^10.5.9"
-  },
-  "devDependencies": {
-    "@parcel/packager-raw-url": "^2.0.0",
-    "@parcel/transformer-webmanifest": "^2.0.0",
-    "http-server": "^14.0.0",
-    "parcel": "^2.0.0"
-  },
-  "scripts": {
-    "start": "http-server .",
-    "build": "parcel build"
-  },
-  "private": true,
-  "targets": {
-    "default": {
-      "source": "index.html",
-      "publicUrl": "."
-    }
-  }
+	"name": "gamja",
+	"dependencies": {
+		"htm": "^3.0.4",
+		"linkifyjs": "^3.0.2",
+		"preact": "^10.5.9"
+	},
+	"devDependencies": {
+		"@parcel/packager-raw-url": "^2.0.0",
+		"@parcel/transformer-webmanifest": "^2.0.0",
+		"http-server": "^14.0.0",
+		"parcel": "^2.0.0"
+	},
+	"scripts": {
+		"start": "http-server .",
+		"build": "parcel build --dist-dir=docs"
+	},
+	"private": true,
+	"targets": {
+		"default": {
+			"source": "index.html",
+			"publicUrl": "."
+		}
+	}
 }
