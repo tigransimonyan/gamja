@@ -1,0 +1,10 @@
+{
+	"server": {
+		"url": "ws://irc.libera.chat:6697",
+		"autojoin": "#def-am",
+		"auth": "optional",
+		"nick": "",
+		"autoconnect": false,
+		"ping": 60
+	}
+}
